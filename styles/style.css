@@ -9,6 +9,9 @@ body {
   margin: 0 auto;
   margin-top: 50px;
 }
+.container {
+  display: flex;
+}
 
 /*---------------------------------- 
 header banner area style starts here 
@@ -77,6 +80,7 @@ main section starts here
   height: 252px;
   padding: 30px;
 }
+
 .menu-bar-buttons a {
   text-decoration: none;
   font-weight: 500;
@@ -90,7 +94,40 @@ main section starts here
   align-items: center;
   margin-top: 20px;
 }
-.menu-bar-buttons .blog {
+.menu-bar-buttons .blog-link {
   color: #ffffff;
   background-color: #dd0000;
+}
+/* ----------------------------------
+main sections blogs style starts here
+------------------------------------- */
+.blogs {
+  margin-top: 137px;
+  margin-left: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+.blog-title {
+  width: 272px;
+  height: 54px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.blog-info {
+  display: flex;
+}
+.blog-info img {
+  margin-right: 10px;
+}
+.blog-info .time,
+.chat {
+  color: rgba(22, 22, 22, 0.7);
+  margin-bottom: 2px;
+}
+.blog-info .time {
+  margin-right: 30px;
 }
