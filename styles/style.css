@@ -1,0 +1,96 @@
+/* Google fonts added here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* Common Style and utilities */
+body {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  width: 1321px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/*---------------------------------- 
+header banner area style starts here 
+------------------------------------*/
+.banner {
+  background-color: #161616;
+  border-radius: 30px;
+  color: #ffffff;
+  display: flex;
+  width: 1321px;
+  margin: 0 auto;
+}
+.banner {
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.banner-info h1 {
+  font-size: 70px;
+  line-height: 80px;
+  width: 531px;
+  height: 240px;
+}
+.banner-info p {
+  width: 506px;
+  height: 78px;
+  font-size: 1em;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.banner-btn button {
+  background-color: #dd0000;
+  color: #ffffff;
+  width: 187px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 16px 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+.banner-btn .fa-angle-right {
+  padding-left: 5px;
+}
+.banner-image img {
+  width: 581px;
+  height: 613px;
+  margin-bottom: -7px;
+  padding-left: 136px;
+  padding-right: 80px;
+}
+/* ---------------------------------
+main section starts here 
+----------------------------------- */
+
+/* left side menu-bar options style starts here */
+.menu-bar {
+  margin-top: 135px;
+  width: 312px;
+  height: 312px;
+  background: #161616;
+  border-radius: 10px;
+}
+.menu-bar-buttons {
+  width: 252px;
+  height: 252px;
+  padding: 30px;
+}
+.menu-bar-buttons a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #161616;
+  background-color: #ffffff;
+  padding: 17px 39px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu-bar-buttons .blog {
+  color: #ffffff;
+  background-color: #dd0000;
+}
